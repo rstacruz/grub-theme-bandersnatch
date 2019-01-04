@@ -1,4 +1,4 @@
-# arch-logo
+# grub-logo-theme
 
 Based on Arch-Silence by Filippo Ghibellini
 
