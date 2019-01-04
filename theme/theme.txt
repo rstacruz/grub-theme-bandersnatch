@@ -26,16 +26,16 @@ terminal-border: "0"
 
 # arch logo
 + image {
-	top = 50%-200
-	left = 50%-75
+	top = 50%-170
+	left = 50%-150
     file = "logo.png"
 }
 
 #boot menu
 + boot_menu {
 	left = 50%-150
-	width = 500
-	top = 50%+100
+	width = 300
+	top = 50%+170
 	height = 300
 
 	item_font = "DejaVu Sans Bold 14"
