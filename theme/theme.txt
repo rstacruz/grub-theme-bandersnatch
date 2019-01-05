@@ -1,7 +1,7 @@
 
 #general settings
 title-text: ""
-desktop-color: "#0a0a0a"
+desktop-color: "#000000"
 
 terminal-font: "Dejavu Sans Regular 12"
 terminal-left: "0"
@@ -26,7 +26,7 @@ terminal-border: "0"
 
 # arch logo
 + image {
-	top = 50%-170
+	top = 50%-150
 	left = 50%-150
     file = "logo.png"
 }
