@@ -3,7 +3,7 @@
 title-text: ""
 desktop-color: "#000000"
 
-terminal-font: "Dejavu Sans Regular 12"
+terminal-font: "DejaVu Sans Regular 12"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
@@ -24,10 +24,11 @@ terminal-border: "0"
     highlight_style = "progress_bar/progress_bar_hl_*.png"
 }
 
+# arch logo
 + image {
 	top = 50%-150
 	left = 50%-150
-	lfile = "logo.png"
+	file = "logo.png"
 }
 
 #boot menu
