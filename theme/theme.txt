@@ -24,11 +24,10 @@ terminal-border: "0"
     highlight_style = "progress_bar/progress_bar_hl_*.png"
 }
 
-# arch logo
 + image {
 	top = 50%-150
 	left = 50%-150
-    file = "logo.png"
+	lfile = "logo.png"
 }
 
 #boot menu
@@ -39,7 +38,7 @@ terminal-border: "0"
 	height = 300
 
 	item_font = "DejaVu Sans Bold 14"
-	item_color = "#999"
+	item_color = "#444"
 	selected_item_font = "DejaVu Sans Bold 14"
 	selected_item_color= "#fff"
 
