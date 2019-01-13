@@ -47,9 +47,16 @@ Custom theme for the GRUB Linux boot loader
   reboot
   ```
 
+## References
+
+Things were taken from other themes, thanks to these great projects!
+
+- [Arch-Silence](https://github.com/fghibellini/arch-silence) by Filippo Ghibellini (progress bar)
+- [Vimix](https://github.com/vinceliuice/grub2-themes) by Vince Liuice (icons, selection images)
+
 ## Thanks
 
-Based on [Arch-Silence](https://github.com/fghibellini/arch-silence) by Filippo Ghibellini. If not explicitly stated otherwise all the files in this project are distributed under the [GNU General Public License](./COPYING).
+If not explicitly stated otherwise all the files in this project are distributed under the [GNU General Public License](./COPYING).
 
 > [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
 > GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;

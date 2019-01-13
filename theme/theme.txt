@@ -1,59 +1,56 @@
-
-#general settings
 title-text: ""
 desktop-color: "#000000"
 
-terminal-font: "DejaVu Sans Regular 12"
+terminal-font: "Unifont Regular 16"
+terminal-box: "terminal_box_*.png"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
 
-#progress bar
+# Progress bar
 + progress_bar {
 	id = "__timeout__"
 	left = 0
 	top = 0
-	height = 15
+	height = 5
 	width = 100%
 	show_text = false
 
 	# just two vertical pixels of color #1793d1
-    bar_style = "progress_bar/progress_bar_*.png"
-    highlight_style = "progress_bar/progress_bar_hl_*.png"
+	bar_style = "progress_bar/progress_bar_*.png"
+	highlight_style = "progress_bar/progress_bar_hl_*.png"
 }
 
-# arch logo
+# Logo
 + image {
-	top = 50%-150
+	top = 50%-200
 	left = 50%-150
+	width = 300
+	height = 300
 	file = "logo.png"
 }
 
-#boot menu
+# Boot menu
 + boot_menu {
-	left = 50%-150
-	width = 300
-	top = 50%+170
-	height = 300
+	left = 25%
+	width = 50%
+	top = 70%
+	height = 28%
 
-	item_font = "DejaVu Sans Bold 14"
+	item_font = "DejaVu Sans Regular 12"
 	item_color = "#444"
-	selected_item_font = "DejaVu Sans Bold 14"
-	selected_item_color= "#fff"
+	item_pixmap_style = "item_*.png"
 
-	item_height = 26
+	selected_item_font = "DejaVu Sans Regular 12"
+	selected_item_color = "#fff"
+	selected_item_padding = 0
+	selected_item_pixmap_style = "select_*.png"
+
+	item_height = 32
 	item_padding = 0
-	item_icon_space = 0
-	item_spacing = 1
+	item_icon_space = 8
+	item_spacing = 12
 	scrollbar = false
 }
-
-#help bar at the bottom
-# + image {
-# 	top = 100%-56
-# 	left = 50%-175
-#     file = "help_bar.png"
-# }
-
