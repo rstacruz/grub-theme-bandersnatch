@@ -1,5 +1,5 @@
 <p align='center'>
-<br><img src='theme/logo.png' width='160'><br>
+<br><img src='docs/screenshot.png' width='500'><br>
 </p>
 
 <h1 align='center'>
